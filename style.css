@@ -1,0 +1,125 @@
+body {
+    margin: 0;
+    font-family: Arial;
+    background: #f5f5f5;
+}
+
+header {
+    background: #222;
+    color: white;
+    padding: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header h1 {
+    margin: 0;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin-left: 15px;
+}
+
+.banner {
+    position: relative;
+}
+
+.banner img {
+    width: 100%;
+    height: 350px;
+    object-fit: cover;
+}
+
+.banner h2 {
+    position: absolute;
+    bottom: 20px;
+    left: 30px;
+    font-size: 32px;
+    color: white;
+}
+
+.featured {
+    padding: 20px;
+    text-align: center;
+}
+
+.product-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+    padding: 20px;
+}
+
+.product-card {
+    background: white;
+    padding: 15px;
+    border-radius: 8px;
+    text-align: center;
+}
+
+.product-card img {
+    width: 100%;
+    height: 180px;
+    object-fit: cover;
+}
+
+.btn {
+    display: inline-block;
+    background: #222;
+    color: white;
+    padding: 8px 15px;
+    margin-top: 10px;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.page-title {
+    text-align: center;
+    margin: 20px 0;
+}
+
+
+    .product-detail img {
+    width: 200px;  /* Set a fixed width */
+    height: auto;  /* Maintain aspect ratio */
+    object-fit: contain;
+    border-radius: 8px;
+}
+
+
+
+.detail-info {
+    background: white;
+    padding: 20px;
+    flex: 1;
+}
+
+.price {
+    color: green;
+    font-size: 22px;
+}
+
+.cart-box {
+    background: white;
+    padding: 30px;
+    width: 50%;
+    margin: 20px auto;
+    text-align: center;
+}
+
+.about {
+    padding: 20px;
+    background: white;
+    margin: 20px;
+}
+
+footer {
+    text-align: center;
+    padding: 10px;
+    background: #222;
+    color: white;
+    margin-top: 20px;
+}
